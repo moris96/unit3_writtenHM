@@ -1,7 +1,7 @@
 function plusMinus(arr) {
     let pos = 0, neg = 0, zero = 0
     let posCorr, negCorr, zeroCorr;
-    for(let i=0; i<arr.length; i++){
+    for(i in arr){
         if(arr[i] > 0){
             pos++
         } else if(arr[i] < 0){
