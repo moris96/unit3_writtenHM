@@ -1,3 +1,4 @@
+#miniMaxSum challenge 
 def miniMaxSum(arr):
     return (sum(sorted(arr)[:-1]), sum(sorted(arr)[1:]))
 
